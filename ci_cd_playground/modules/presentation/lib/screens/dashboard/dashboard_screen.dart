@@ -34,6 +34,13 @@ class DashboardScreen extends StatelessWidget {
                     children: [
                       Text(state.user?.name ?? ''),
                       Text(state.user?.email ?? ''),
+                      const Divider(),
+                      Card(
+                        color: Colors.orange.shade200,
+                        child: const FlutterLogo(
+                          size: 200,
+                        ),
+                      ),
                     ],
                   ),
                 );
