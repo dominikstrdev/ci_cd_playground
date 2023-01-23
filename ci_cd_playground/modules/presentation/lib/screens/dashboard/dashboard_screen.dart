@@ -38,7 +38,7 @@ class DashboardScreen extends StatelessWidget {
                       Card(
                         color: Colors.orange.shade200,
                         child: const FlutterLogo(
-                          size: 200,
+                          size: 250,
                         ),
                       ),
                     ],
