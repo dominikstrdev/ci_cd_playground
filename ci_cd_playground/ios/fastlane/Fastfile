@@ -97,7 +97,7 @@ platform :ios do
   desc "Deploy a new Alpha (development) version to the Firebase App Distribution"
   lane :deploy_fad_ios_alpha do
     firebase_app_distribution(
-      app: "", # TODO: update firebase app number
+      app: "1:505324591626:ios:d3c7535135718ab22c5df3",
       ipa_path: "./ci_cd_playgroundAlpha.ipa",
       groups: "beta-testers",
       release_notes: ""
